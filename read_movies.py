@@ -52,7 +52,7 @@ def get_movie_by_title():
     table = get_table()
     user_input = input("Enter a movie title: ")
 
-    user_response = table.scan(FilterExpression=Attr('title').eq(user_input))
+    user_response = table.scan(FilterExpression=Attr("Title").eq(user_input))
     items= user_response.get("Items", [])
 
     if items:
