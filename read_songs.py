@@ -21,7 +21,7 @@ def print_song(song):
     
     print(f"  Title : {title}")
     print(f"  Artist: {artist}")
-    print(f"  Year  : {year}")
+    print(f"  Release Year  : {year}")
     print(f"  Genre: {genre}")
     print()
 
